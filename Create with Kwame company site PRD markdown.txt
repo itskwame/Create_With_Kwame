@@ -1,0 +1,2416 @@
+# Product Requirements Document  
+# Create With Kwame Website
+
+## Version
+
+**Version 1.0**
+
+## Brand
+
+**Create With Kwame**
+
+## Core Positioning
+
+Create With Kwame helps people **learn AI, build better projects, and implement smarter systems** without getting lost in the technology.
+
+The site should position Kwame as an:
+
+**AI Educator • Builder • Strategist**
+
+The brand should feel premium, practical, human, future-ready, and trustworthy.
+
+The website should not feel like a generic AI consultant site. It should feel like a high-end digital studio and education brand that helps families, schools, professionals, teams, and organizations prepare for an AI-integrated world.
+
+---
+
+# 1. Primary Website Goal
+
+The website must help visitors quickly understand:
+
+1. AI is already part of everyday life.
+2. Most people are passively consuming AI without using it intentionally.
+3. Kwame helps people use AI correctly, responsibly, and practically.
+4. Kwame can help visitors in three clear ways:
+   - **Learn**
+   - **Build**
+   - **Implement**
+5. ParentPrep is a flagship product for helping kids build confidence and critical thinking through real-world scenario practice.
+6. Visitors should know exactly where to click based on their need.
+
+The homepage should act like a **guided lobby**. It should not over-explain everything. It should help the visitor quickly choose the right path.
+
+---
+
+# 2. Target Audiences
+
+## Primary Audience Groups
+
+### Families and Parents
+
+Parents who want to prepare their kids for the future, help them use AI correctly and responsibly, and build confidence, critical thinking, and real-world decision-making skills.
+
+### Schools and Education Groups
+
+Schools, educators, homeschool groups, PTAs, and education organizations that need practical AI education, responsible AI training, student preparation, and parent engagement support.
+
+### Professionals and Creators
+
+Professionals, founders, entrepreneurs, creators, and business owners who need help turning ideas, drafts, presentations, content, visuals, workflows, or digital products into finished work.
+
+### Teams and Organizations
+
+Small businesses, nonprofits, agencies, schools, departments, and organizations that want to implement AI into real workflows, automations, agents, playbooks, and systems.
+
+---
+
+# 3. Core User Paths
+
+The site must guide users into four paths.
+
+## Path 1: Learn
+
+For people who want AI education, courses, workshops, or training.
+
+Primary CTA:
+
+**Explore Learning**
+
+## Path 2: Build
+
+For people who need a project, asset, presentation, visual, content system, workflow, or digital product built or improved.
+
+Primary CTA:
+
+**Start a Project**
+
+## Path 3: Implement
+
+For teams and organizations that want AI, automation, agents, workflows, or systems integrated into their work.
+
+Primary CTA:
+
+**Plan Implementation**
+
+## Path 4: ParentPrep
+
+For parents who want kids to practice real-world decision-making and critical thinking.
+
+Primary CTA:
+
+**Take the 2-Minute Quiz**
+
+---
+
+# 4. Visual Direction
+
+## Overall Design Style
+
+The site should look like a premium, futuristic AI education and project studio.
+
+The visual style should be:
+
+- dark
+- clean
+- spacious
+- cinematic
+- premium
+- modern
+- trustworthy
+- human
+- organized
+- lightly futuristic
+- not overly complicated
+
+The site should use **empty space intentionally**. It should not look crowded or text-heavy.
+
+Each section should have one clear visual idea and one clear user action.
+
+---
+
+# 5. Color System
+
+## Background Colors
+
+Use dark layered backgrounds.
+
+Primary background:
+
+`#050713`
+
+Deep navy:
+
+`#080D1F`
+
+Midnight blue:
+
+`#0B1026`
+
+Section gradient:
+
+`linear-gradient(180deg, #050713 0%, #081126 100%)`
+
+Card background:
+
+`rgba(13, 20, 45, 0.72)`
+
+Deeper card background:
+
+`rgba(7, 12, 28, 0.85)`
+
+## Accent Colors
+
+Primary blue:
+
+`#2F7BFF`
+
+Primary purple:
+
+`#7A3CFF`
+
+Soft purple:
+
+`#9B6BFF`
+
+Electric cyan:
+
+`#32D6FF`
+
+Responsible AI green accent:
+
+`#35E0C1`
+
+Warning or highlight orange:
+
+`#FF8A4C`
+
+Use orange sparingly for labels only.
+
+## Text Colors
+
+Main white:
+
+`#F7F8FF`
+
+Soft white:
+
+`#DDE2F2`
+
+Muted text:
+
+`#9AA3B8`
+
+Low emphasis:
+
+`#68708A`
+
+## Borders and Glow
+
+Default card border:
+
+`rgba(130, 150, 255, 0.22)`
+
+Hover card border:
+
+`rgba(128, 95, 255, 0.65)`
+
+Subtle glow:
+
+`0 0 40px rgba(122, 60, 255, 0.22)`
+
+CTA glow:
+
+`0 0 36px rgba(47, 123, 255, 0.35)`
+
+---
+
+# 6. Typography
+
+## Font Recommendation
+
+Use a clean premium font pairing.
+
+Recommended:
+
+- Headings: **Sora**, **Plus Jakarta Sans**, or **Manrope**
+- Body: **Inter**
+
+Alternative premium option:
+
+- Headings: **Clash Display**
+- Body: **Inter**
+
+## Hero Headline
+
+Desktop:
+
+- Font size: 68px to 84px
+- Line height: 0.95 to 1.05
+- Font weight: 600 to 700
+
+Tablet:
+
+- Font size: 50px to 62px
+
+Mobile:
+
+- Font size: 38px to 46px
+
+## Section Headlines
+
+Desktop:
+
+- Font size: 44px to 56px
+- Line height: 1.05 to 1.15
+
+Mobile:
+
+- Font size: 30px to 38px
+
+## Body Copy
+
+Desktop:
+
+- Font size: 16px to 18px
+- Line height: 1.55 to 1.7
+
+Mobile:
+
+- Font size: 15px to 16px
+
+## Eyebrow Labels
+
+Use uppercase small labels.
+
+Style:
+
+- Font size: 12px to 14px
+- Letter spacing: 0.12em
+- Font weight: 600
+- Color: gradient blue-purple or cyan
+
+Example:
+
+**THE REALITY**
+
+---
+
+# 7. Spacing System
+
+## Page Width
+
+Maximum content width:
+
+`1280px`
+
+## Horizontal Padding
+
+Desktop:
+
+`64px`
+
+Tablet:
+
+`36px`
+
+Mobile:
+
+`20px`
+
+## Section Padding
+
+Large desktop sections:
+
+`96px to 140px` vertical padding
+
+Compact sections:
+
+`64px to 88px` vertical padding
+
+Mobile sections:
+
+`56px to 76px` vertical padding
+
+## Card Spacing
+
+Card padding desktop:
+
+`28px to 36px`
+
+Card padding mobile:
+
+`20px to 24px`
+
+Card gap:
+
+`20px to 28px`
+
+Border radius:
+
+`22px to 30px`
+
+## Layout Rule
+
+Every section should answer one question and give one primary action.
+
+Avoid dense paragraphs.
+
+---
+
+# 8. Animation and Motion Principles
+
+Motion should be smooth, subtle, and meaningful.
+
+Use motion to guide attention, not to show off.
+
+## Required Animation Style
+
+- slow floating hero object
+- soft glowing orbit lines
+- section fade-up reveals
+- staggered card entrances
+- hover lift on cards
+- CTA button glow on hover
+- arrow movement on hover
+- slight image zoom on portfolio cards
+- sticky nav blur on scroll
+- reduced motion support
+
+## Avoid
+
+- fast spinning objects
+- flashing lights
+- too much parallax
+- text flying from multiple directions
+- animations that slow mobile
+- unnecessary animation on every tiny element
+
+## Recommended Library
+
+Use **Framer Motion** for Version 1.
+
+Optional later:
+
+- GSAP for advanced scroll storytelling
+- Spline for interactive 3D
+- React Three Fiber for custom 3D
+
+---
+
+# 9. Global Navigation
+
+## Desktop Header
+
+Position:
+
+- Sticky top
+- Full width
+- Transparent at top
+- Dark glass background after scroll
+
+Height:
+
+`72px to 84px`
+
+Logo left:
+
+**Create With Kwame**
+
+Navigation center or right:
+
+- Learn
+- Build
+- Implement
+- ParentPrep
+- Work
+- About
+- Contact
+
+Primary CTA right:
+
+**Start a Project**
+
+## Header Visual Style
+
+- Background: transparent initially
+- On scroll: `rgba(5, 7, 19, 0.72)`
+- Backdrop blur: `16px`
+- Border bottom: `rgba(255,255,255,0.08)`
+
+## Mobile Header
+
+- Logo left
+- Hamburger icon right
+- Full-screen or slide-down mobile menu
+- Include CTA button inside menu
+
+Mobile menu links:
+
+- Learn
+- Build
+- Implement
+- ParentPrep
+- Work
+- About
+- Contact
+- Start a Project
+
+---
+
+# 10. Homepage PRD
+
+## Page Goal
+
+The homepage must quickly communicate the problem, the brand difference, and the visitor’s path.
+
+The homepage should be concise, visual, and directional.
+
+It should not include long explanations.
+
+---
+
+## Homepage Section 1: Hero
+
+### Purpose
+
+Create instant clarity and emotional relevance.
+
+The visitor should immediately understand:
+
+- AI is already here.
+- They need to use it intentionally.
+- Kwame can help them learn, build, and implement.
+- They can choose a path.
+
+### Layout
+
+Desktop:
+
+- Left side: text and CTAs
+- Right side: abstract AI visual
+- Floating cards around visual
+
+Mobile:
+
+- Text first
+- CTA buttons below
+- Hero visual second
+- Floating cards simplified
+
+### Background
+
+Use dark gradient:
+
+`#050713` to `#080D1F`
+
+Add soft radial glow behind the hero visual:
+
+`rgba(47,123,255,0.22)` and `rgba(122,60,255,0.20)`
+
+### Eyebrow Copy
+
+**AI EDUCATOR • BUILDER • STRATEGIST**
+
+### Hero Headline
+
+**AI Is Already in Your Life. Use It on Purpose.**
+
+### Hero Supporting Copy
+
+**I help families, schools, professionals, and teams turn AI confusion into clear learning, finished projects, smarter systems, and future-ready skills.**
+
+### CTA Buttons
+
+Primary:
+
+**Find Your Path**
+
+Secondary:
+
+**Start a Project**
+
+### Supporting Trust Microcopy
+
+Use three short microcopy items under CTA:
+
+- **Future-ready skills**
+- **Practical guidance**
+- **Results-focused support**
+
+### Hero Visual
+
+Use a premium abstract AI globe or glowing learning core.
+
+Visual requirements:
+
+- blue-purple glowing orb
+- orbit lines
+- light trails
+- subtle node connections
+- dark transparent background
+- should feel like intelligence, learning, and systems
+
+Floating cards:
+
+1. **Clear Learning**
+   - Practical guidance for every level.
+
+2. **Projects That Get Results**
+   - Ideas turned into finished work.
+
+3. **Smarter Systems**
+   - Workflows, agents, and automation.
+
+4. **Future-Ready Skills**
+   - Built for an AI-integrated world.
+
+### Animation
+
+- Hero eyebrow fades in first
+- Headline fades up line by line
+- Gradient words subtly shimmer once
+- CTAs fade in
+- Hero orb floats slowly
+- Floating cards gently drift
+- Orbit lines slowly rotate or pulse
+
+---
+
+## Homepage Section 2: The Reality
+
+### Purpose
+
+Help visitors recognize the problem immediately.
+
+They should think:
+
+“This is true. AI is already around me. I need to be more intentional.”
+
+### Layout
+
+Desktop:
+
+- Left: text block
+- Right: icon grid of everyday AI examples
+
+Mobile:
+
+- Text first
+- Icon grid below
+
+### Section Label
+
+**THE REALITY**
+
+### Headline
+
+**Most people are already using AI. They just are not using it on purpose.**
+
+### Supporting Copy
+
+**AI is already built into phones, GPS, autocorrect, search, streaming, social media, customer service, shopping apps, and workplace tools. Consuming AI is not the same as being prepared for it.**
+
+### Icon Pills
+
+Display as clean cards or pills:
+
+- GPS
+- Autocorrect
+- Search
+- Streaming
+- Social Media
+- Smart Phones
+- Smart Watches
+- Customer Service
+- Workplace Tools
+
+### Visual Style
+
+- Use simple line icons
+- Each pill should have dark background
+- Border glow on hover
+- Icons in cyan, blue, or purple
+- Plenty of space around the grid
+
+### Animation
+
+- Icons fade in with stagger
+- On hover, each icon card lifts and glows
+- Optional subtle line connecting icons to central concept
+
+---
+
+## Homepage Section 3: The Difference
+
+### Purpose
+
+Explain why your education is different from most AI courses.
+
+This is a key differentiator.
+
+### Section Label
+
+**THE DIFFERENCE**
+
+### Headline
+
+**Tools Change. Thinking Lasts.**
+
+### Supporting Copy
+
+**Most AI training teaches people how to use the tools that exist today. The problem is that tools, models, and features change constantly. I teach the foundations, judgment, and critical thinking skills people need to succeed with any tool, model, or upgrade.**
+
+### Layout
+
+Use a side-by-side comparison.
+
+Left card:
+
+**Tool-Based Training**
+
+Bullet points:
+
+- Follow features
+- Learn the interface
+- Copy prompts
+- Outdated quickly
+
+Right card:
+
+**Thinking-Based Training**
+
+Bullet points:
+
+- Ask better questions
+- Check outputs
+- Apply judgment
+- Adapt to any tool
+- Use AI correctly and responsibly
+
+Center badge:
+
+**VS**
+
+### Visual Style
+
+Left card should feel muted.
+
+Right card should feel brighter and more premium.
+
+Left card icon:
+
+- wrench or tool
+
+Right card icon:
+
+- brain, compass, or shield
+
+### Animation
+
+- Left card enters first
+- VS badge appears
+- Right card enters with stronger glow
+- Bullet checks animate in sequence
+
+---
+
+## Homepage Section 4: Path Finder
+
+### Purpose
+
+Route users to the right offer.
+
+This is the most important UX section.
+
+### Section Headline
+
+**What do you need help with?**
+
+### Supporting Copy
+
+**Choose the path that matches your problem.**
+
+### Cards
+
+Four cards.
+
+### Card 1: Learn
+
+Icon:
+
+Open book or graduation cap
+
+Title:
+
+**Learn**
+
+Copy:
+
+**Practical education for families, students, educators, and teams. Learn to use AI correctly, responsibly, and with the judgment to adapt as tools change.**
+
+CTA:
+
+**Explore Learning**
+
+### Card 2: Build
+
+Icon:
+
+Pencil, cube, or project tile
+
+Title:
+
+**Build**
+
+Copy:
+
+**Presentations, content, visuals, systems, and projects turned into clear, polished work.**
+
+CTA:
+
+**Start a Project**
+
+### Card 3: Implement
+
+Icon:
+
+Gear or connected nodes
+
+Title:
+
+**Implement**
+
+Copy:
+
+**Workflows, automations, agents, and smarter systems for teams and organizations.**
+
+CTA:
+
+**Plan Implementation**
+
+### Card 4: ParentPrep
+
+Icon:
+
+Family or shield
+
+Title:
+
+**ParentPrep**
+
+Copy:
+
+**Real-world scenario practice that helps kids build confidence and critical thinking.**
+
+CTA:
+
+**Visit ParentPrep**
+
+### Layout
+
+Desktop:
+
+- Four cards in one row
+
+Tablet:
+
+- 2x2 grid
+
+Mobile:
+
+- stacked cards
+
+### Card Style
+
+- dark glass card
+- large icon at top
+- clear title
+- short body
+- bottom arrow button
+- hover glow
+
+### Interaction
+
+Click card routes to correct page or section.
+
+Hover:
+
+- card lifts 6px
+- border brightens
+- icon glows
+- arrow moves right
+
+---
+
+## Homepage Section 5: Build Preview
+
+### Purpose
+
+Capture people who need something done and may not care whether AI is used.
+
+This section should be outcome-first.
+
+### Section Label
+
+**BUILD**
+
+### Headline
+
+**Need something finished, polished, or built?**
+
+### Supporting Copy
+
+**Bring the idea, draft, or problem. I help turn it into a clear, useful outcome.**
+
+### Service Cards
+
+Use four cards.
+
+### Presentations & Decks
+
+Copy:
+
+**Pitch decks, training slides, workshops, proposals, and executive presentations made clear and professional.**
+
+### Content & Campaigns
+
+Copy:
+
+**Messaging, social content, lead magnets, and campaign assets built around a clear goal.**
+
+### Visuals & Creative Assets
+
+Copy:
+
+**Custom images, mockups, storyboards, graphics, and visual concepts that help your message stand out.**
+
+### Systems & Workflows
+
+Copy:
+
+**Templates, dashboards, process documents, and repeatable systems that save time and reduce confusion.**
+
+### CTA
+
+**Start a Project**
+
+### Visual Direction
+
+Use a grid of outcome icons:
+
+- deck icon
+- content document
+- image frame
+- workflow diagram
+
+Avoid saying “AI-powered” in the main cards.
+
+Use a small line at the bottom:
+
+**Built with strategy, creative direction, modern tools, and AI-assisted execution where useful.**
+
+### Animation
+
+- Cards slide up in stagger
+- Hover reveals mini detail
+- CTA button glows on hover
+
+---
+
+## Homepage Section 6: Implement Preview
+
+### Purpose
+
+Attract companies and teams that specifically want AI adoption, systems, automation, and agents.
+
+### Section Label
+
+**IMPLEMENT**
+
+### Headline
+
+**Ready to bring AI into your work?**
+
+### Supporting Copy
+
+**I help teams identify practical opportunities, redesign workflows, and set up AI-supported systems, automations, and agents.**
+
+### Visual
+
+Create a simple horizontal process diagram:
+
+**Messy Process → Clear Workflow → Automation → Agent → Human Review → Better Output**
+
+Each step should have a small icon and label.
+
+### Service Cards
+
+### AI Readiness
+
+Copy:
+
+**Find where AI can actually save time, improve quality, and reduce repeated work.**
+
+### Workflow Redesign
+
+Copy:
+
+**Turn messy or repeated processes into clearer, faster, more reliable systems.**
+
+### Agents & Assistants
+
+Copy:
+
+**Design focused assistants for research, reporting, onboarding, content, customer support, and internal knowledge.**
+
+### Team Playbooks
+
+Copy:
+
+**Create practical guides so your team knows how to use new systems correctly and responsibly.**
+
+### Key Trust Line
+
+**Not every process needs an agent. Some need a better workflow, some need automation, and some need a human-in-the-loop assistant. I help you choose the right approach.**
+
+### CTA
+
+**Plan Implementation**
+
+### Animation
+
+- Process line animates left to right
+- Each step lights up on scroll
+- Cards reveal after process line
+- Agent card has subtle pulsing node effect
+
+---
+
+## Homepage Section 7: Learn Preview
+
+### Purpose
+
+Promote education offers while emphasizing responsible, correct use and transferable thinking.
+
+### Section Label
+
+**LEARN**
+
+### Headline
+
+**Build confidence. Use AI with purpose.**
+
+### Supporting Copy
+
+**Practical education for families, students, educators, professionals, and teams. Learn to use AI correctly, responsibly, and with the judgment to adapt as tools change.**
+
+### Cards
+
+### Families
+
+Copy:
+
+**Help your family understand AI and use it to support learning, planning, creativity, and better decisions.**
+
+### Kids
+
+Copy:
+
+**Teach kids to ask better questions, check answers, create responsibly, and build future-ready skills.**
+
+### Educators
+
+Copy:
+
+**Bring practical AI literacy into learning without ignoring academic integrity, safety, or critical thinking.**
+
+### Teams
+
+Copy:
+
+**Help professionals use AI to communicate better, save time, and improve their work.**
+
+### CTA
+
+**Explore Learning**
+
+### Visual Direction
+
+Use warm but premium icons:
+
+- home
+- smile or student
+- graduation cap
+- team icon
+
+This section should feel more human and less technical.
+
+### Animation
+
+- Cards fade in
+- Icon glows on hover
+- Subtle underline animation on CTA
+
+---
+
+## Homepage Section 8: Featured Work
+
+### Purpose
+
+Show proof without overwhelming visitors.
+
+### Section Label
+
+**FEATURED WORK**
+
+### Headline
+
+**Built, tested, and taught in the real world.**
+
+### Supporting Copy
+
+**A focused look at products, learning experiences, workflows, and systems I have created or shaped.**
+
+### Cards
+
+### ParentPrep
+
+Label:
+
+**LIVE PRODUCT**
+
+Copy:
+
+**Scenario-based practice that helps kids build confidence and make better decisions in real-life situations.**
+
+Image:
+
+Phone mockup or scenario card UI.
+
+CTA:
+
+**View Product**
+
+### Journeful
+
+Label:
+
+**RETIRED PRODUCT**
+
+Copy:
+
+**A personalized children’s story app that helped families create custom reading experiences.**
+
+Image:
+
+Premium storybook illustration.
+
+CTA:
+
+**View Project**
+
+### Practical AI Workflows
+
+Label:
+
+**AI WORKFLOWS**
+
+Copy:
+
+**Voice-based tutors, communication practice, explainers, resume reviews, and other practical use cases.**
+
+Image:
+
+Workflow nodes or audio waveforms.
+
+CTA:
+
+**View Workflows**
+
+### Dashboards & Systems
+
+Label:
+
+**SYSTEMS**
+
+Copy:
+
+**Dashboards, reporting workflows, SharePoint systems, and operational tools for better visibility.**
+
+Image:
+
+Dark dashboard mockup.
+
+CTA:
+
+**View Systems**
+
+### Layout
+
+Desktop:
+
+4 cards in a row or 2x2 grid
+
+Mobile:
+
+stacked or swipe carousel
+
+### Card Rule
+
+Each card should have:
+
+- label
+- image
+- title
+- one-sentence copy
+- CTA
+
+Do not over-explain.
+
+---
+
+## Homepage Section 9: ParentPrep Spotlight
+
+### Purpose
+
+Give ParentPrep its own conversion-focused section.
+
+### Section Label
+
+**PARENTPREP**
+
+### Headline
+
+**Practice before it matters.**
+
+### Supporting Copy
+
+**ParentPrep helps kids think through real-world situations before they face them alone. Simple scenarios help build confidence, critical thinking, and stronger decision-making.**
+
+### Interactive Demo
+
+Show a scenario card.
+
+Scenario example:
+
+**Your friend sends you a message asking for a photo that makes you uncomfortable. What do you do?**
+
+Options:
+
+A. Send the photo  
+B. Ignore the message  
+C. Tell a trusted adult  
+D. Block your friend
+
+After user clicks the correct choice, show:
+
+**Great choice. You chose the safest and smartest option. This scenario helps children practice boundaries, safety, and decision-making.**
+
+### CTA Buttons
+
+Primary:
+
+**Take the 2-Minute Quiz**
+
+Secondary:
+
+**Visit ParentPrep**
+
+### Visual Style
+
+- card-based interface
+- mobile app mockup
+- purple-blue glow
+- family-friendly but still premium
+- not childish
+
+### Animation
+
+- Scenario card appears with slide-up
+- Choices highlight on hover
+- Correct answer reveals feedback panel
+- CTA button pulses once subtly
+
+---
+
+## Homepage Section 10: About Preview
+
+### Purpose
+
+Build trust without overloading with biography.
+
+### Section Label
+
+**ABOUT**
+
+### Headline
+
+**Practical. Human. Built around outcomes.**
+
+### Copy
+
+**I help people make sense of new tools, finish important projects, and build smarter ways to work and learn. My focus is simple: turn confusion into clarity and ideas into useful outcomes.**
+
+### Additional Microcopy
+
+Use three tags:
+
+- **AI Education**
+- **Project Support**
+- **Smarter Systems**
+
+### Image
+
+Use a professional portrait of Kwame or polished AI-assisted personal brand image.
+
+Image requirements:
+
+- clean background
+- professional
+- confident
+- approachable
+- dark blue-purple gradient overlay
+- should not look fake or overly corporate
+
+### CTA
+
+**Work With Me**
+
+---
+
+## Homepage Section 11: Final CTA
+
+### Purpose
+
+Capture visitors who are ready or unsure.
+
+### Headline
+
+**Have something you need to learn, build, or implement?**
+
+### Supporting Copy
+
+**Tell me what you are trying to solve. I’ll help you find the clearest next step.**
+
+### CTA Buttons
+
+Primary:
+
+**Start a Project**
+
+Secondary:
+
+**Book a Call**
+
+Tertiary link:
+
+**Explore ParentPrep**
+
+### Visual Style
+
+- large centered panel
+- strong glow behind CTA
+- minimal text
+- generous spacing
+
+---
+
+## Homepage Section 12: Footer
+
+### Purpose
+
+Provide navigation and contact options.
+
+### Footer Layout
+
+Left:
+
+Logo and short description.
+
+**Create With Kwame helps people learn AI, build better projects, and implement smarter systems without getting lost in the technology.**
+
+Center:
+
+Links:
+
+- Learn
+- Build
+- Implement
+- ParentPrep
+- Work
+- About
+- Contact
+
+Right:
+
+Social links:
+
+- LinkedIn
+- Instagram
+- TikTok
+- YouTube
+- Email
+
+Bottom:
+
+Copyright.
+
+---
+
+# 11. Learn Page PRD
+
+## Page Goal
+
+Convert visitors interested in education, courses, family AI guidance, student preparation, and workshops.
+
+This page should answer:
+
+- What can I learn?
+- Who is this for?
+- Why is this different?
+- How do I get started?
+
+## Learn Page Hero
+
+### Headline
+
+**Learn AI the Right Way.**
+
+### Supporting Copy
+
+**Practical education for families, students, educators, professionals, and teams. Learn to use AI correctly, responsibly, and with the judgment to adapt as tools change.**
+
+### CTA
+
+Primary:
+
+**Choose a Learning Path**
+
+Secondary:
+
+**Explore Courses**
+
+### Visual
+
+Use a premium learning dashboard visual:
+
+- course cards
+- glowing pathway
+- family, student, educator, team icons
+- “Tools Change. Thinking Lasts.” as small floating card
+
+---
+
+## Learn Page Section 2: Why This Matters
+
+### Headline
+
+**AI tools change. The right thinking does not.**
+
+### Copy
+
+**Most AI courses focus on today’s tools. Create With Kwame focuses on the foundations: asking better questions, checking outputs, using good judgment, thinking critically, and applying AI responsibly.**
+
+### Visual
+
+Side-by-side comparison:
+
+Tool Tutorials vs Transferable Skills
+
+---
+
+## Learn Page Section 3: Learning Paths
+
+### Cards
+
+### AI for Parents
+
+Copy:
+
+**Help your family understand AI, support learning, and guide children toward responsible use.**
+
+CTA:
+
+**Explore Parent Learning**
+
+### AI for Kids
+
+Copy:
+
+**Help kids use AI to create, question, learn, and build without relying on it to think for them.**
+
+CTA:
+
+**Explore AI for Kids**
+
+### AI for Educators
+
+Copy:
+
+**Practical AI literacy for educators who want clarity, responsibility, and real classroom relevance.**
+
+CTA:
+
+**Explore Educator Training**
+
+### AI for Professionals
+
+Copy:
+
+**Use AI to communicate better, save time, improve decisions, and create higher-quality work.**
+
+CTA:
+
+**Explore Professional Training**
+
+### Team Workshops
+
+Copy:
+
+**Hands-on sessions for schools, teams, and organizations that need practical AI guidance.**
+
+CTA:
+
+**Book a Workshop**
+
+---
+
+## Learn Page Section 4: Skills Taught
+
+### Headline
+
+**The skills that survive every upgrade.**
+
+Skill cards:
+
+- Better prompting
+- Critical thinking
+- Output checking
+- Fact verification
+- Responsible use
+- Creativity
+- Communication
+- Workflow thinking
+- Human judgment
+- Tool adaptability
+
+### Animation
+
+Cards should reveal in a clean grid.
+
+---
+
+## Learn Page Section 5: Course or Workshop CTA
+
+### Headline
+
+**Want a course, workshop, or custom session?**
+
+CTA buttons:
+
+- **Explore Courses**
+- **Request a Workshop**
+
+---
+
+# 12. Build Page PRD
+
+## Page Goal
+
+Convert visitors who need something created, polished, finished, or improved.
+
+This page should be outcome-first. Do not overemphasize AI.
+
+## Build Page Hero
+
+### Headline
+
+**From Messy Idea to Finished Project.**
+
+### Supporting Copy
+
+**Bring the rough idea, draft, process, or problem. I help turn it into clear, polished, useful work.**
+
+### CTA
+
+Primary:
+
+**Start a Project**
+
+Secondary:
+
+**See What I Can Build**
+
+### Visual
+
+Use a project studio visual:
+
+- deck
+- document
+- image
+- workflow
+- dashboard
+- landing page
+- all represented as floating polished cards
+
+---
+
+## Build Page Section 2: What I Help Build
+
+### Headline
+
+**Project support for work that needs to be clearer, faster, and more polished.**
+
+### Cards
+
+### Presentations & Decks
+
+Examples:
+
+- pitch decks
+- executive briefings
+- training slides
+- workshops
+- proposals
+- school presentations
+
+### Content & Campaigns
+
+Examples:
+
+- social content systems
+- lead magnets
+- email sequences
+- messaging frameworks
+- landing page copy
+- campaign assets
+
+### Visuals & Creative Assets
+
+Examples:
+
+- AI-assisted images
+- mockups
+- concept art
+- storyboards
+- educational graphics
+- brand visuals
+
+### Digital Products & Ideas
+
+Examples:
+
+- MVP plans
+- app concepts
+- user flows
+- landing pages
+- product briefs
+- feature planning
+
+### Systems & Workflows
+
+Examples:
+
+- SOPs
+- templates
+- dashboards
+- trackers
+- process maps
+- reporting workflows
+
+### Video & Animation Planning
+
+Examples:
+
+- scripts
+- storyboards
+- explainer concepts
+- scene prompts
+- content outlines
+- animation direction
+
+---
+
+## Build Page Section 3: Process
+
+### Headline
+
+**A simple path from idea to outcome.**
+
+Steps:
+
+### 1. Clarify
+
+We define the goal, audience, message, and what the final result needs to do.
+
+### 2. Structure
+
+We organize the idea, content, flow, or process.
+
+### 3. Create
+
+I build the first version using strategy, creative direction, and modern tools.
+
+### 4. Refine
+
+We polish the work so it is clear, professional, and useful.
+
+### 5. Deliver
+
+You receive the finished asset, system, or plan with clear next steps.
+
+### Visual
+
+Use a horizontal process line.
+
+Mobile:
+
+Stack vertically.
+
+---
+
+## Build Page Section 4: Offer
+
+### Offer Name
+
+**Clarity to Completion Sprint**
+
+### Headline
+
+**Get one important project unstuck and finished.**
+
+### Copy
+
+**A focused project sprint for presentations, content, visuals, workflows, digital product plans, and other high-value work that needs to become clear and polished.**
+
+### Deliverables
+
+- strategy call
+- project structure
+- polished deliverable
+- revision round
+- handoff guide
+- optional walkthrough
+
+### Starting Price
+
+Use:
+
+**Starting at $1,500**
+
+If not ready to publish price, use:
+
+**Custom project pricing available after intake.**
+
+### CTA
+
+**Start a Project**
+
+---
+
+## Build Page Section 5: Intake CTA
+
+### Headline
+
+**Tell me what you need built.**
+
+Form fields:
+
+- Name
+- Email
+- Project type
+- What do you need help with?
+- Deadline
+- Budget range
+- Any links or files
+
+CTA:
+
+**Submit Project Request**
+
+---
+
+# 13. Implement Page PRD
+
+## Page Goal
+
+Convert teams and organizations that want AI strategy, workflow improvement, automations, agents, and systems.
+
+This page can use more AI-specific language because visitors here are actively looking for implementation.
+
+---
+
+## Implement Page Hero
+
+### Headline
+
+**Bring AI Into the Work That Actually Matters.**
+
+### Supporting Copy
+
+**I help teams identify practical AI opportunities, redesign workflows, set up automations, and build human-in-the-loop agents that support real business processes.**
+
+### CTA
+
+Primary:
+
+**Plan Implementation**
+
+Secondary:
+
+**Request an AI Audit**
+
+### Visual
+
+Use a workflow diagram or system map:
+
+Manual Work → Workflow → Automation → Agent → Human Review → Better Output
+
+---
+
+## Implement Page Section 2: Who This Is For
+
+Cards:
+
+### Teams Losing Time
+
+**Repeated tasks, manual updates, scattered information, and inconsistent processes are slowing people down.**
+
+### Organizations Exploring AI
+
+**You know AI matters, but you need help deciding where it should actually fit.**
+
+### Leaders Wanting Safe Adoption
+
+**You want productivity gains without creating risk, confusion, or uncontrolled tool use.**
+
+---
+
+## Implement Page Section 3: Services
+
+### AI Readiness Audit
+
+Copy:
+
+**Identify where AI can save time, improve quality, and reduce repeated work.**
+
+Deliverables:
+
+- process review
+- opportunity map
+- quick wins
+- risk areas
+- recommended tools
+- implementation roadmap
+
+### Workflow Redesign
+
+Copy:
+
+**Turn messy or repeated work into clearer, faster, more reliable systems.**
+
+Deliverables:
+
+- workflow map
+- improved process
+- SOP
+- prompt system
+- recommended automation steps
+
+### AI Agents & Assistants
+
+Copy:
+
+**Design focused assistants for research, reporting, onboarding, content, customer support, internal knowledge, and follow-up tasks.**
+
+Deliverables:
+
+- agent use case
+- instructions
+- guardrails
+- tool map
+- prototype
+- testing checklist
+- handoff guide
+
+### Team Playbooks
+
+Copy:
+
+**Give your team clear rules, examples, and workflows for using AI correctly and responsibly.**
+
+Deliverables:
+
+- use cases
+- prompts
+- do and don’t guidelines
+- review process
+- role-based examples
+- training materials
+
+---
+
+## Implement Page Section 4: Agent Positioning
+
+### Headline
+
+**Agents are not the starting point. Better processes are.**
+
+### Copy
+
+**Not every process needs an agent. Some need a better workflow, some need automation, and some need a human-in-the-loop assistant. I help you choose the right approach before building anything.**
+
+### Visual
+
+Three-column decision graphic:
+
+### Workflow
+
+Best for simple repeated steps.
+
+### Automation
+
+Best for connecting tools and reducing manual handoffs.
+
+### Agent
+
+Best when a system needs to reason, use tools, follow instructions, and support multi-step work.
+
+---
+
+## Implement Page Section 5: Implementation Offer
+
+### Offer Name
+
+**AI Implementation Audit**
+
+### Headline
+
+**Find the best places to start.**
+
+### Copy
+
+**A practical audit that identifies your top AI, automation, workflow, and agent opportunities, then turns them into a clear roadmap.**
+
+### Starting Price
+
+**Starting at $2,500**
+
+### CTA
+
+**Request an Audit**
+
+---
+
+## Implement Page Section 6: Ongoing Support
+
+### Headline
+
+**Need help beyond the first project?**
+
+Copy:
+
+**For teams that need ongoing support, I can help refine workflows, build new systems, train users, document processes, and support adoption over time.**
+
+CTA:
+
+**Discuss Monthly Support**
+
+---
+
+# 14. ParentPrep Page PRD
+
+## Page Goal
+
+Send families into the ParentPrep quiz and product.
+
+This page should be emotionally clear and parent-focused.
+
+---
+
+## ParentPrep Page Hero
+
+### Headline
+
+**Practice Before It Matters.**
+
+### Supporting Copy
+
+**ParentPrep helps kids think through real-world situations before they face them alone. Simple scenarios help build confidence, critical thinking, and better decision-making.**
+
+### CTA
+
+Primary:
+
+**Take the 2-Minute Quiz**
+
+Secondary:
+
+**Try Free Scenarios**
+
+### Visual
+
+Show phone mockup with scenario card.
+
+---
+
+## ParentPrep Section 2: The Problem
+
+### Headline
+
+**Most kids are told what to do. Few get to practice.**
+
+### Copy
+
+**Kids are often told to be safe, kind, confident, and responsible. But real life happens fast. ParentPrep helps children practice what they might say, choose, or do before the pressure is real.**
+
+### Visual
+
+Use scenario cards:
+
+- peer pressure
+- group chats
+- trusted adult confusion
+- bullying
+- safety choices
+
+---
+
+## ParentPrep Section 3: How It Works
+
+Steps:
+
+### 1. Take the readiness quiz
+
+Parents answer a few simple questions.
+
+### 2. Try real-world scenarios
+
+Kids practice situations they may face.
+
+### 3. Talk through decisions
+
+Parents and kids discuss the best choices.
+
+### 4. Build confidence over time
+
+Small practice helps children respond better when it matters.
+
+---
+
+## ParentPrep Section 4: Scenario Demo
+
+Include interactive scenario from homepage, with better detail.
+
+CTA:
+
+**Take the 2-Minute Quiz**
+
+---
+
+## ParentPrep Section 5: Outcomes
+
+Cards:
+
+- Confidence
+- Critical thinking
+- Safer choices
+- Better communication
+- Real-world readiness
+
+---
+
+# 15. Work Page PRD
+
+## Page Goal
+
+Show honest proof of work without exaggeration.
+
+---
+
+## Work Page Hero
+
+### Headline
+
+**Practical Work. Real Outcomes.**
+
+### Supporting Copy
+
+**A collection of products, workflows, courses, systems, and project examples that show how I turn ideas into useful outcomes.**
+
+### Filters
+
+- All
+- Live Products
+- Retired Products
+- Learning
+- Workflows
+- Systems
+- Project Support
+
+---
+
+## Work Page Sections
+
+### Live Product
+
+ParentPrep
+
+### Retired Product
+
+Journeful
+
+### Learning Systems
+
+AI for Parents, AI for Kids, AI for Educators, AI for Professionals
+
+### Practical Workflows
+
+Flight communication practice, language tutor workflows, parent-child explainer, resume analysis workflow, communication coach
+
+### Systems
+
+Dashboards, SharePoint systems, reporting workflows, process trackers
+
+Each project card should include:
+
+- category label
+- title
+- short description
+- problem
+- solution
+- skills used
+- CTA
+
+Keep card preview short. Use project detail pages for full case studies.
+
+---
+
+# 16. About Page PRD
+
+## Page Goal
+
+Build trust and explain Kwame’s point of view.
+
+---
+
+## About Page Hero
+
+### Headline
+
+**I help people turn confusion into clarity and ideas into useful outcomes.**
+
+### Supporting Copy
+
+**My work sits at the intersection of AI education, project support, digital products, data systems, and practical implementation.**
+
+### Visual
+
+Professional portrait.
+
+---
+
+## About Section 2: Philosophy
+
+### Headline
+
+**AI should support human thinking, not replace it.**
+
+Copy:
+
+**The goal is not to chase every new tool. The goal is to build the judgment, confidence, and systems needed to use technology well.**
+
+---
+
+## About Section 3: What I Do
+
+Cards:
+
+- Teach
+- Build
+- Implement
+- Create
+- Simplify
+- Strategize
+
+---
+
+## About Section 4: Why It Matters
+
+Copy should connect to:
+
+- families
+- schools
+- teams
+- future readiness
+- responsible use
+- real outcomes
+
+CTA:
+
+**Work With Me**
+
+---
+
+# 17. Contact Page PRD
+
+## Page Goal
+
+Turn interest into inquiries.
+
+The form should route people based on need.
+
+---
+
+## Contact Page Hero
+
+### Headline
+
+**Tell me what you need help with.**
+
+### Supporting Copy
+
+**Whether you want to learn, build, implement, or explore ParentPrep, share a few details and I’ll help identify the right next step.**
+
+---
+
+## Contact Form Fields
+
+Required:
+
+- Name
+- Email
+- Organization, optional
+- What do you need help with?
+
+Dropdown:
+
+- Learn
+- Build
+- Implement
+- ParentPrep
+- Speaking or workshop
+- Not sure yet
+
+Project details:
+
+- What are you trying to solve?
+- What outcome do you want?
+- When do you need it?
+- Budget range
+- Links or files
+
+CTA:
+
+**Send Request**
+
+---
+
+# 18. Visual Asset Requirements
+
+## Required Visuals
+
+1. Hero AI globe or learning core
+2. Everyday AI icon set
+3. Tools vs Thinking comparison graphic
+4. Learn, Build, Implement, ParentPrep card icons
+5. Build service icons
+6. Implementation workflow diagram
+7. Agent decision graphic
+8. ParentPrep scenario UI mockup
+9. Project portfolio thumbnails
+10. Professional portrait or brand image
+
+## Image Style
+
+Images should be:
+
+- premium
+- clean
+- dark-themed
+- human-centered
+- not generic
+- not overly robotic
+- not childish
+- not cluttered
+
+Avoid:
+
+- scary robots
+- random circuit boards
+- fake corporate handshakes
+- excessive stock photography
+- too many glowing objects
+- children looking isolated or overwhelmed
+
+---
+
+# 19. Accessibility Requirements
+
+The site must include:
+
+- keyboard accessible navigation
+- readable contrast
+- alt text
+- visible focus states
+- reduced motion support
+- labels on forms
+- semantic headings
+- accessible buttons
+- no flashing animations
+- mobile-friendly tap targets
+
+---
+
+# 20. Performance Requirements
+
+The site must be fast.
+
+Requirements:
+
+- optimize all images
+- use WebP or AVIF
+- lazy load below-fold images
+- keep homepage animation lightweight
+- avoid heavy 3D in Version 1
+- use fallback images for complex visuals
+- test on mobile
+- avoid bloated libraries
+
+---
+
+# 21. Conversion Requirements
+
+Every major page must have a clear CTA.
+
+## Homepage
+
+- Find Your Path
+- Start a Project
+- Plan Implementation
+- Take the 2-Minute Quiz
+
+## Learn Page
+
+- Explore Courses
+- Request a Workshop
+
+## Build Page
+
+- Start a Project
+
+## Implement Page
+
+- Request an AI Audit
+- Plan Implementation
+
+## ParentPrep Page
+
+- Take the 2-Minute Quiz
+- Try Free Scenarios
+
+## Contact Page
+
+- Send Request
+
+---
+
+# 22. Copy Rules
+
+## Keep Text Short
+
+Homepage copy should be concise.
+
+Avoid long paragraphs.
+
+Use:
+
+- headings
+- one-sentence explanations
+- short cards
+- labels
+- CTAs
+- visual examples
+
+## Use Progressive Disclosure
+
+Homepage gives the overview.
+
+Service pages give details.
+
+Case studies give deeper proof.
+
+Contact form captures specifics.
+
+## Avoid Overclaiming
+
+Do not say:
+
+- award-winning
+- thousands served
+- enterprise-grade
+- fully autonomous agents
+- guaranteed results
+- live product if retired
+- app if it is only a workflow
+
+Use honest labels:
+
+- live product
+- retired product
+- AI workflow
+- project support
+- implementation support
+- agent prototype
+- human-in-the-loop assistant
+
+---
+
+# 23. Final Site Structure
+
+Top-level pages:
+
+1. Home
+2. Learn
+3. Build
+4. Implement
+5. ParentPrep
+6. Work
+7. About
+8. Contact
+
+Optional later pages:
+
+- Courses
+- Workshops
+- Agent Setup
+- Project Sprint
+- AI Readiness Audit
+- Case Studies
+- Blog or Insights
+
+---
+
+# 24. Definition of Done
+
+The site is complete when:
+
+1. Visitors understand the brand within 5 seconds.
+2. The homepage clearly explains the problem without too much text.
+3. The visitor can choose Learn, Build, Implement, or ParentPrep easily.
+4. The design feels premium, spacious, and modern.
+5. The site does not look like an overloaded AI-generated website.
+6. Each section has a clear purpose.
+7. Every card has concise copy.
+8. The Learn section emphasizes correct and responsible AI use.
+9. The Build section is outcome-first, not AI-first.
+10. The Implement section clearly includes workflows, automation, and agents.
+11. ParentPrep is clearly presented as the flagship live product.
+12. Journeful is clearly labeled as retired.
+13. AI workflows are not mislabeled as standalone products.
+14. The site works well on desktop, tablet, and mobile.
+15. Motion is smooth and not distracting.
+16. CTAs route users to the correct next step.
+17. The site is fast, accessible, and SEO-ready.
+18. The final experience makes visitors think:
+
+**This is the person who can help my family, school, team, or business get ready for an AI-integrated world and solve real problems.**
