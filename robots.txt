@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://createwithkwame.com/sitemap.xml
