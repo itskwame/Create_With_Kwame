@@ -43,9 +43,13 @@ document.querySelectorAll("[data-icon]").forEach((element) => {
 });
 
 document.querySelectorAll("[data-booking-link]").forEach((link) => {
-  link.href = BOOKING_URL;
-  link.target = "_blank";
-  link.rel = "noopener";
+  if (BOOKING_URL.includes("YOUR-LINK")) {
+    link.href = "contact.html";
+  } else {
+    link.href = BOOKING_URL;
+    link.target = "_blank";
+    link.rel = "noopener";
+  }
 });
 
 document.querySelectorAll("[data-parentprep-home-link]").forEach((link) => {
@@ -123,7 +127,7 @@ if (!prefersReducedMotion && "IntersectionObserver" in window) {
     });
   }, { threshold: 0.12 });
 
-  document.querySelectorAll(".section, .card, .mini-pill, .process").forEach((item, index) => {
+  document.querySelectorAll(".section, .card, .mini-pill, .process, .agents-banner, .old-new-side, .shift-arrow").forEach((item, index) => {
     item.classList.add("js-reveal");
     item.style.setProperty("--stagger", `${Math.min(index % 8, 7) * 55}ms`);
     revealObserver.observe(item);
@@ -195,7 +199,7 @@ document.querySelectorAll("form[data-static-form]").forEach((form) => {
 
       form.reset();
       if (status) {
-        status.textContent = "Thanks. Your request was sent. I’ll review it and follow up with the best next step.";
+        status.textContent = "Thanks. Your request was sent. I'll review it and follow up with the best next step.";
         status.classList.add("success");
       }
     } catch (error) {

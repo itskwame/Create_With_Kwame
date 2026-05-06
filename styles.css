@@ -749,6 +749,164 @@ p {
   margin-top: 18px;
 }
 
+.agents-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+  gap: clamp(24px, 5vw, 64px);
+  align-items: center;
+  padding: clamp(24px, 5vw, 46px);
+  border: 1px solid rgba(130, 150, 255, 0.38);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 82% 22%, rgba(122, 60, 255, 0.22), transparent 22rem),
+    radial-gradient(circle at 12% 78%, rgba(50, 214, 255, 0.14), transparent 20rem),
+    linear-gradient(135deg, rgba(13, 20, 45, 0.78), rgba(7, 12, 28, 0.92));
+  box-shadow: 0 0 50px rgba(47, 123, 255, 0.16);
+  overflow: hidden;
+}
+
+.agent-hub {
+  position: relative;
+  min-height: 430px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.thumb .agent-hub {
+  min-height: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.thumb .agent-node {
+  transform: scale(0.72);
+}
+
+.thumb .agent-node.center {
+  transform: scale(0.78);
+}
+
+.thumb .node-operations {
+  display: none;
+}
+
+.thumb .node-follow {
+  top: 18px;
+  left: 6%;
+}
+
+.thumb .node-research {
+  top: 20px;
+  right: 4%;
+}
+
+.thumb .node-reporting {
+  right: 8%;
+  bottom: 20px;
+}
+
+.agent-orbit {
+  position: absolute;
+  width: min(76vw, 420px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(50, 214, 255, 0.22);
+  border-radius: 50%;
+  box-shadow: inset 0 0 56px rgba(47, 123, 255, 0.1), 0 0 46px rgba(122, 60, 255, 0.14);
+}
+
+.agent-orbit::before,
+.agent-orbit::after {
+  content: "";
+  position: absolute;
+  inset: 18%;
+  border: 1px solid rgba(155, 107, 255, 0.24);
+  border-radius: 50%;
+  transform: rotate(28deg) skew(12deg);
+}
+
+.agent-orbit::after {
+  inset: 30%;
+  border-color: rgba(50, 214, 255, 0.2);
+  transform: rotate(-34deg) skew(-12deg);
+}
+
+.agent-node {
+  position: absolute;
+  min-width: 118px;
+  min-height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(130, 150, 255, 0.42);
+  border-radius: 8px;
+  background: rgba(7, 12, 28, 0.78);
+  color: var(--soft-white);
+  font-size: 13px;
+  font-weight: 800;
+  box-shadow: 0 0 24px rgba(47, 123, 255, 0.14);
+}
+
+.agent-node.center {
+  min-width: 138px;
+  min-height: 74px;
+  border-color: rgba(50, 214, 255, 0.72);
+  background: radial-gradient(circle at 50% 30%, rgba(50, 214, 255, 0.22), rgba(7, 12, 28, 0.88));
+  color: var(--white);
+  box-shadow: 0 0 42px rgba(50, 214, 255, 0.28);
+}
+
+.node-follow { top: 54px; left: 10%; }
+.node-research { top: 70px; right: 8%; }
+.node-reporting { right: 2%; bottom: 134px; }
+.node-support { left: 4%; bottom: 120px; }
+.node-operations { bottom: 40px; left: 50%; transform: translateX(-50%); }
+
+.old-new-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(13, 20, 45, 0.76), rgba(7, 12, 28, 0.9));
+  box-shadow: 0 0 46px rgba(47, 123, 255, 0.12);
+}
+
+.old-new-heading {
+  grid-column: 1 / -1;
+}
+
+.old-new-side {
+  min-height: 100%;
+  padding: clamp(18px, 3vw, 28px);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.old-way {
+  border-color: rgba(255, 138, 76, 0.34);
+}
+
+.new-way {
+  border-color: rgba(50, 214, 255, 0.46);
+  box-shadow: 0 0 28px rgba(50, 214, 255, 0.12);
+}
+
+.shift-arrow {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(50, 214, 255, 0.36);
+  border-radius: 50%;
+  background: rgba(50, 214, 255, 0.08);
+  color: var(--cyan);
+  font-weight: 900;
+  box-shadow: 0 0 28px rgba(50, 214, 255, 0.18);
+}
+
 .option {
   min-height: 44px;
   border: 1px solid var(--border);
@@ -961,7 +1119,8 @@ textarea {
   }
 
   .split,
-  .scenario {
+  .scenario,
+  .agents-banner {
     grid-template-columns: 1fr;
   }
 
@@ -1022,6 +1181,24 @@ textarea {
 
   .float-card {
     display: none;
+  }
+
+  .agent-hub {
+    min-height: 360px;
+  }
+
+  .agent-node {
+    min-width: 104px;
+    font-size: 12px;
+  }
+
+  .old-new-card {
+    grid-template-columns: 1fr;
+  }
+
+  .shift-arrow {
+    margin: 0 auto;
+    transform: rotate(90deg);
   }
 
   .nav-shell {
