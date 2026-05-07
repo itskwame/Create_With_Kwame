@@ -101,7 +101,7 @@
             <h2>Tell me what you need built.</h2>
             <p class="lede">Share the practical details so the project can be scoped clearly.</p>
           </div>
-          <form class="card form" name="project-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-static-form novalidate>
+          <form class="card form" name="project-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
             <input type="hidden" name="form-name" value="project-inquiry">
             <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
             <div class="form-grid"><label>Name<input name="name" required aria-describedby="build-name-error"><span class="field-error" id="build-name-error" data-error-for="name"></span></label><label>Email<input type="email" name="email" required aria-describedby="build-email-error"><span class="field-error" id="build-email-error" data-error-for="email"></span></label></div>
