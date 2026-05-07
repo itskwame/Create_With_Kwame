@@ -31,8 +31,9 @@
             <h1>Tell me what you need help with.</h1>
             <p class="lede">Whether you want to learn, build, implement, or explore ParentPrep, share a few details and I will help identify the right next step.</p>
           </div>
-          <form class="card form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="post" data-static-form novalidate>
-            <label class="honeypot">Leave this field blank<input name="_gotcha" tabindex="-1" autocomplete="off"></label>
+          <form class="card form" id="contact-form" name="contact-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-static-form novalidate>
+            <input type="hidden" name="form-name" value="contact-inquiry">
+            <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
             <div class="form-grid">
               <label>Name<input name="name" required aria-describedby="contact-name-error"><span class="field-error" id="contact-name-error" data-error-for="name"></span></label>
               <label>Email<input type="email" name="email" required aria-describedby="contact-email-error"><span class="field-error" id="contact-email-error" data-error-for="email"></span></label>
@@ -44,6 +45,7 @@
                 <option>Learn</option>
                 <option>Build</option>
                 <option>Implement</option>
+                <option>Agents</option>
                 <option>ParentPrep</option>
                 <option>Speaking or workshop</option>
                 <option>Not sure yet</option>

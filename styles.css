@@ -929,7 +929,8 @@ p {
   font-weight: 600;
 }
 
-.honeypot {
+.honeypot,
+.hidden {
   position: absolute;
   left: -9999px;
   width: 1px;
@@ -985,6 +986,26 @@ textarea {
   background: rgba(255, 255, 255, 0.05);
   color: var(--white);
   padding: 13px 14px;
+}
+
+select {
+  background: #141a2f;
+  color: #f7f8ff;
+}
+
+select option {
+  background: #0b1026;
+  color: #f7f8ff;
+}
+
+select option:checked {
+  background: #2f7bff;
+  color: #ffffff;
+}
+
+select option:hover {
+  background: #2f7bff;
+  color: #ffffff;
 }
 
 textarea {

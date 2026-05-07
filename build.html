@@ -101,8 +101,9 @@
             <h2>Tell me what you need built.</h2>
             <p class="lede">Share the practical details so the project can be scoped clearly.</p>
           </div>
-          <form class="card form" action="https://formspree.io/f/YOUR_FORM_ID" method="post" data-static-form novalidate>
-            <label class="honeypot">Leave this field blank<input name="_gotcha" tabindex="-1" autocomplete="off"></label>
+          <form class="card form" name="project-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-static-form novalidate>
+            <input type="hidden" name="form-name" value="project-inquiry">
+            <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
             <div class="form-grid"><label>Name<input name="name" required aria-describedby="build-name-error"><span class="field-error" id="build-name-error" data-error-for="name"></span></label><label>Email<input type="email" name="email" required aria-describedby="build-email-error"><span class="field-error" id="build-email-error" data-error-for="email"></span></label></div>
             <div class="form-grid"><label>Project type<input name="project_type" required aria-describedby="build-type-error"><span class="field-error" id="build-type-error" data-error-for="project_type"></span></label><label>Deadline<input name="deadline"></label></div>
             <label>What do you need help with?<textarea name="details" required aria-describedby="build-details-error"></textarea><span class="field-error" id="build-details-error" data-error-for="details"></span></label>

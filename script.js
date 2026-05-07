@@ -1,8 +1,6 @@
 const BOOKING_URL = "https://calendly.com/YOUR-LINK";
 const PARENTPREP_HOME_URL = "https://parent-prep.com/";
 const PARENTPREP_QUIZ_URL = "https://parent-prep.com/quiz";
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
-
 const iconPaths = {
   learn: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H7a3 3 0 0 0-3 3V5.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>',
   build: '<path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4.5 8 7.5 4.2L19.5 8"/><path d="M12 12.2V21"/>',
@@ -159,7 +157,6 @@ document.querySelectorAll("[data-filter]").forEach((filter) => {
 document.querySelectorAll("form[data-static-form]").forEach((form) => {
   const status = form.querySelector("[data-form-status]");
   const submit = form.querySelector("button[type='submit']");
-  form.action = FORMSPREE_ENDPOINT;
 
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -174,7 +171,7 @@ document.querySelectorAll("form[data-static-form]").forEach((form) => {
       return;
     }
 
-    if (form.querySelector("[name='_gotcha']")?.value) return;
+    if (form.querySelector("[name='bot-field']")?.value) return;
 
     submit.disabled = true;
     submit.dataset.originalText = submit.textContent;
@@ -186,16 +183,13 @@ document.querySelectorAll("form[data-static-form]").forEach((form) => {
     }
 
     try {
-      if (FORMSPREE_ENDPOINT.includes("YOUR_FORM_ID")) {
-        await new Promise((resolve) => setTimeout(resolve, 500));
-      } else {
-        const response = await fetch(FORMSPREE_ENDPOINT, {
-          method: "POST",
-          body: new FormData(form),
-          headers: { Accept: "application/json" }
-        });
-        if (!response.ok) throw new Error("Form submission failed.");
-      }
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(new FormData(form)).toString()
+      });
+
+      if (!response.ok) throw new Error("Form submission failed.");
 
       form.reset();
       if (status) {
