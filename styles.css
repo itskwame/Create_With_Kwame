@@ -907,6 +907,100 @@ p {
   box-shadow: 0 0 28px rgba(50, 214, 255, 0.18);
 }
 
+.proof-card {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: clamp(18px, 3vw, 32px);
+  align-items: start;
+  padding: clamp(22px, 4vw, 36px);
+  border: 1px solid rgba(255, 138, 76, 0.3);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 138, 76, 0.08), transparent 34%),
+    linear-gradient(135deg, rgba(13, 20, 45, 0.82), rgba(7, 12, 28, 0.92));
+  box-shadow: 0 0 42px rgba(255, 138, 76, 0.08), 0 0 36px rgba(47, 123, 255, 0.08);
+}
+
+.proof-icon {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border: 1px solid rgba(255, 138, 76, 0.42);
+  border-radius: 8px;
+  background: rgba(255, 138, 76, 0.08);
+  box-shadow: 0 0 28px rgba(255, 138, 76, 0.12);
+}
+
+.proof-icon::before,
+.proof-icon::after,
+.proof-icon span {
+  content: "";
+  position: absolute;
+  border-radius: 999px;
+}
+
+.proof-icon::before {
+  width: 14px;
+  height: 14px;
+  left: 16px;
+  top: 18px;
+  background: var(--orange);
+  box-shadow: 0 0 20px rgba(255, 138, 76, 0.5);
+}
+
+.proof-icon::after {
+  width: 14px;
+  height: 14px;
+  right: 16px;
+  bottom: 18px;
+  background: var(--cyan);
+  box-shadow: 0 0 20px rgba(50, 214, 255, 0.5);
+}
+
+.proof-icon span:first-child {
+  left: 28px;
+  top: 28px;
+  width: 28px;
+  height: 1px;
+  background: rgba(255, 138, 76, 0.7);
+  transform: rotate(20deg);
+}
+
+.proof-icon span:last-child {
+  left: 42px;
+  top: 48px;
+  width: 20px;
+  height: 1px;
+  background: rgba(50, 214, 255, 0.75);
+  transform: rotate(-20deg);
+}
+
+.proof-copy p {
+  color: var(--soft-white);
+}
+
+.proof-statement {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border-left: 3px solid var(--orange);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--white) !important;
+  font-weight: 750;
+}
+
+.source-note {
+  margin-top: 14px;
+  color: var(--muted) !important;
+  font-size: 0.92rem;
+}
+
+.source-note a {
+  color: var(--cyan);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .option {
   min-height: 44px;
   border: 1px solid var(--border);
@@ -1141,7 +1235,8 @@ textarea {
 
   .split,
   .scenario,
-  .agents-banner {
+  .agents-banner,
+  .proof-card {
     grid-template-columns: 1fr;
   }
 
@@ -1215,6 +1310,11 @@ textarea {
 
   .old-new-card {
     grid-template-columns: 1fr;
+  }
+
+  .proof-icon {
+    width: 72px;
+    height: 72px;
   }
 
   .shift-arrow {
